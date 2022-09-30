@@ -159,6 +159,20 @@ button {
     align-items: center;
     margin-left: auto;
 }
+.header-mail-icon {
+    margin-right: 10px;
+    fill: #757575;
+}
+
+.mail-header:hover .header-mail-icon {
+    fill: var(--accent-color);
+    color: var(--accent-color);
+}
+
+.mail-header:focus .header-mail-icon {
+    fill: var(--accent-color);
+    color: var(--accent-color);
+}
 
 .mail-header {
     color: var(--title-text-color);
@@ -177,6 +191,29 @@ button {
 
 .mail-header:focus {
     color: var(--accent-color);
+}
+
+.header-tel-icon {
+    margin-right: 10px;
+    fill: #757575;
+}
+
+.tel-header:hover .header-tel-icon {
+    fill: var(--accent-color);
+    color: var(--accent-color);
+}
+
+.tel-header:focus .header-tel-icon {
+    fill: var(--accent-color);
+    color: var(--accent-color);
+} 
+
+.header-tel-icon:hover {
+    fill: var(--accent-color);
+}
+
+.header-tel-icon:focus {
+    fill: var(--accent-color);
 }
 
 .tel-header {
@@ -705,45 +742,3 @@ padding-bottom: 30px;
 .footer-social-icon {
     fill: #FFFFFF;
 }
-
-
-
-
-/* ul .socisl-list {
-    display: flex;
-    justify-content: center;
-    column-gap: 10px;
-    padding-bottom: 30px;
-}
-
-.social-list-item {}
-
-a .social-list-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background: #FFFFFF;
-}
-
-.social-list-link:hover {
-    background: #2196F3;
-}
-
-.social-list-link:focus {
-    background: #2196F3;
-}
-
-.social-list-link:hover .social-list-icon {
-    fill: #FFFFFF;
-}
-
-.social-list-link:focus .social-list-icon {
-    fill: #FFFFFF;
-}
-
-.social-list-icon {
-    fill: #AFB1B8;
-}*/
