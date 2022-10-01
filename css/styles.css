@@ -162,6 +162,7 @@ button {
 }
 .header-mail-icon {
     fill: #757575;
+    margin-right: 10px;
 }
 
 .mail-header:hover .header-mail-icon {
@@ -197,6 +198,7 @@ button {
 
 .header-tel-icon {
     fill: #757575;
+    margin-right: 10px;
 }
 
 .tel-header:hover .header-tel-icon {
