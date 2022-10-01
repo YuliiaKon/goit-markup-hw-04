@@ -176,6 +176,9 @@ button {
 }
 
 .mail-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--title-text-color);
     text-align: center;
     font-style: normal;
@@ -220,6 +223,9 @@ button {
 }
 
 .tel-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--title-text-color);
     font-style: normal;
     text-decoration: none;
