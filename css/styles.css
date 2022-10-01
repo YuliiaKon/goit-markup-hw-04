@@ -80,6 +80,7 @@ button {
 .page-header {
     padding-top: 32px;
     padding-bottom: 32px;
+    border:1px solid #ECECEC
 }
 
 .page-header-container {
@@ -160,7 +161,6 @@ button {
     margin-left: auto;
 }
 .header-mail-icon {
-    margin-right: 10px;
     fill: #757575;
 }
 
@@ -176,12 +176,14 @@ button {
 
 .mail-header {
     color: var(--title-text-color);
+    text-align: center;
     font-style: normal;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+   
     margin-right: 50px;
 }
 
@@ -194,7 +196,6 @@ button {
 }
 
 .header-tel-icon {
-    margin-right: 10px;
     fill: #757575;
 }
 
@@ -237,7 +238,6 @@ button {
 .cursor {
     cursor: pointer
 }
-
 
 /*============ ГЕРОЙ ============*/
 
